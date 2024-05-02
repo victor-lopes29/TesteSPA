@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5rXWQVkRA8Kbyyh+wcD7HsPEG/2DSuklRnlEkAX2thk=",
+  "Source": "TesteSPA.API",
+  "BasePath": "_content/TesteSPA.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,37 @@
+@page
+@model TesteSPA.RazorPages.Pages.Task.View.Index
+
+<h1 class="display-4">Tarefas Registradas</h1>
+
+<hr/>
+
+<div>
+    @* <table class="table table-bordered table-striped table-hover-custom">
+        <thead>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.TaskList[0].Id)</td>
+                <td>@Html.DisplayNameFor(model => model.TaskList[0].Title)</td>
+                <td>@Html.DisplayNameFor(model => model.TaskList[0].Description)</td>
+                <td>@Html.DisplayNameFor(model => model.TaskList[0].dateTime)</td>
+                <td>@Html.DisplayNameFor(model => model.TaskList[0].Time)</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var taskModel in Model.TaskList)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(model => taskModel.Id)</td>
+                        <td>@Html.DisplayFor(model => taskModel.Title)</td>
+                        <td>@Html.DisplayFor(model => taskModel.Description)</td>
+                        <td>@Html.DisplayFor(model => taskModel.dateTime)</td>
+                        <td>@Html.DisplayFor(model => taskModel.Time)</td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@taskModel.Id">Alterar</a>
+                            <a asp-page="./Details" asp-route-id="@taskModel.Id">Visualizar</a>
+                            <a asp-page="./Delete" asp-route-id="@taskModel.Id">Remover</a>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table> *@
+</div>
